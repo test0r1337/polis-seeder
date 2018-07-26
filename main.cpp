@@ -356,7 +356,7 @@ extern "C" void* ThreadStats(void*) {
   } while(1);
 }
 
-static const string mainnet_seeds[] = {"polis.seeds.mn.zone","polis.mnseeds.com", "dnsseed.poliscentral.org", "dnsseed2.poliscentral.org", "dnsseed3.poliscentral.org"};
+static const string mainnet_seeds[] = {"polis.seeds.mn.zone","polis.mnseeds.com", ""};
 static const string testnet_seeds[] = {"static-testnet-seed.darkcoin.io", "static-testnet-seed.dashdot.io", ""};
 static const string *seeds = mainnet_seeds;
 
